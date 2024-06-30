@@ -15,7 +15,7 @@ const LoginRight: NextPage<LoginRightType> = memo(({ className = "" }) => {
     >
       <CreateSocial />
       <InputLogin />
-      <ButtonComponent />
+      {/*<ButtonComponent />*/}
     </div>
   );
 });

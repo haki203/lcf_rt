@@ -13,8 +13,8 @@ const CreateSocial: NextPage<CreateSocialType> = memo(({ className = "" }) => {
       <b className="self-stretch relative tracking-[0.08em] leading-[35px] mix-blend-normal">
         Create Account
       </b>
-      <div className="self-stretch h-[42px] flex flex-row items-center justify-center gap-[10px] text-xs">
-        <div className="rounded-3xs flex flex-row items-center justify-start p-2.5 gap-[17px] border-[1px] border-solid border-gainsboro">
+      <div className="self-stretch h-[42px] flex flex-row items-center justify-center gap-[10px] text-mini">
+        <div className="cursor-pointer rounded-3xs flex flex-row items-center justify-start p-2.5 gap-[17px] border-[1px] border-solid border-gainsboro">
           <img
             className="w-[22px] relative h-[22px] object-cover"
             alt=""
@@ -22,7 +22,7 @@ const CreateSocial: NextPage<CreateSocialType> = memo(({ className = "" }) => {
           />
           <div className="relative">Sign up with Google</div>
         </div>
-        <div className="rounded-3xs flex flex-row items-center justify-start p-2.5 gap-[17px] border-[1px] border-solid border-gainsboro">
+        <div className="cursor-pointer rounded-3xs flex flex-row items-center justify-start p-2.5 gap-[17px] border-[1px] border-solid border-gainsboro">
           <img
             className="w-[22px] relative h-[22px] object-cover"
             alt=""

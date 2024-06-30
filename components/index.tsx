@@ -10,7 +10,7 @@ export type LoginPluginType = {
 const LoginPlugin: NextPage<LoginPluginType> = ({ className = "" }) => {
   return (
     <div
-      className={`w-[1144px] bg-lightblue max-w-full flex flex-row items-start justify-center relative ${className}`}
+      className={`w-[1144px] h-full bg-lightblue max-w-full flex flex-row items-start justify-center relative ${className}`}
     >
       <LeftContainer />
       <RightContainer />
